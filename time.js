@@ -17,9 +17,9 @@ function countdown()
     const minutes=Math.floor(totalseconds/60)%60;
     const seconds=Math.floor(totalseconds)%60;
 
-    daysel.innerHTML=formatTime(days);
-    hourel.innerHTML=formatTime(hours);
-    minel.innerHTML=formatTime(minutes);
+    daysel.innerHTML=days;
+    hourel.innerHTML=hours;
+    minel.innerHTML=minutes;
     secel.innerHTML=formatTime(seconds);
     
 }
